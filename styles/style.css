@@ -1,0 +1,48 @@
+/* common rules starts */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+.container{
+    background-color: #fff;
+    width: 870px;
+    padding: 30px;
+    
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* common rules ends */
+
+/* Top player style */
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.top-section h2{
+    color: #562EFF;
+    font-size: 24px;
+    padding-top: 3px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px5;
+    justify-content: center;
+}
+.player{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+   
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player h3{
+    font-size: 14px;
+}
