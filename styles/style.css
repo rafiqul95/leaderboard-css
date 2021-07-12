@@ -23,6 +23,46 @@ hr{
 }
 /* common rules ends */
 
+
+/* ---------------------
+         nav-section
+------------------------ */
+nav{
+    background-color: #562EFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    
+}
+.logo-section{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+   
+}
+.logo-title{
+    color: white;
+    font-weight: 300px;
+}
+.navbar>ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+}
+li{
+    color: white;
+    list-style: none;
+}
+
+.logo img{
+    width: 40px;
+    height: 51px;
+    color: white;
+}
+
+
 /* Top player style */
 main{
     display: flex;
@@ -117,4 +157,25 @@ latest course section
 .course-info .empty{
     color: #AEAEAE;
 }
+@media only screen and (max-width:688px) {
+    nav{
+        justify-content: space-between;
+        padding: 0ex;
+            
+    }
+    .logo-section{
+        gap: 5px;
+    }
+    .players{
+        display: flex;
+        flex-direction: column;
+        
+       
+    }
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100px;
+    }
 
+}
